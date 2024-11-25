@@ -4,13 +4,13 @@ import random
 class Deck:
     def __init__(self, cards):
         self.cards = cards
-        
+
     def create_deck(self):
-        cards = []
-        for num in range(2, 14):
-            for suit in ("spades", "hearts", "clubs", "diamonds"):
-                self.cards.append(Card(num,suit))
-        print("added cards")
+        self.cards = []
+        for val in range(2, 15):
+            for suit in ("S", "H", "C", "D"):
+                imgTag = str(val) + suit + ".png"
+                self.cards.append(Card(val, suit, imgTag))
 
     def shuffle_deck(self):
         random.shuffle(self.cards)
