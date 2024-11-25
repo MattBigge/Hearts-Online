@@ -1,7 +1,7 @@
 class Card:
-    def __init__(self, suit, number):
+    def __init__(self, val, suit):
+        self.val = val
         self.suit = suit
-        self.number = number
         
     def __str__(self):
-        return f"{self.number}"
+        return f"{self.val} {self.suit}"
