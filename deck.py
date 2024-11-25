@@ -15,3 +15,6 @@ class Deck:
     def shuffle_deck(self):
         random.shuffle(self.cards)
         return self.cards
+
+    # def remove_card(self, val, suit):
+    # def add_card(val, suit):

@@ -1,8 +1,8 @@
 from card import Card
 
 def create_deck():
-    deck = []
+    cards = []
     for val in range(2, 15):
         for suit in ("S", "H", "C", "D"):
-            deck.append(Card(val, suit))
-    return deck
+            cards.append(Card(val, suit))
+    return cards
