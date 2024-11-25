@@ -24,7 +24,7 @@ player_2 = Player("Player 2", hand2)
 player_3 = Player("Player 3", hand3)
 player_4 = Player("Player 4", hand4)
 
-print(player_1)
+print(player_1.cards[2])
 print(ace_space)
 print(player_2.cards)
 print(player_3.cards)
