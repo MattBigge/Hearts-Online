@@ -11,12 +11,12 @@ def setup_deck():
 
 hand1,hand2,hand3,hand4 = setup_deck()
 ace_space = Card(14, "S")
-player_1 = Player("Player 1", hand1)
-player_2 = Player("Player 2", hand2)
-player_3 = Player("Player 3", hand3)
-player_4 = Player("Player 4", hand4)
+player_1 = Player("Player 1", hand1, 0)
+player_2 = Player("Player 2", hand2, 0)
+player_3 = Player("Player 3", hand3, 0)
+player_4 = Player("Player 4", hand4, 0)
 
-print(player_1.cards)
+print(player_1)
 print(player_2.cards)
 print(player_3.cards)
 print(player_4.cards)
